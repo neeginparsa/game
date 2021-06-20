@@ -18,7 +18,7 @@ root.iconphoto(False, p1)
 #region SHOWFRAME
 def show_frame2():
     frame1.grid_forget()
-    frame2.grid(row=0,column=0,columnspan=2,rowspan=2,ipadx=50,padx=(1,5),pady=(1,9),ipady=40)
+    frame2.grid(row=0,column=0, columnspan=2,rowspan=2,ipadx=50,padx=(1,5),pady=(1,9),ipady=40)
 
 def show_frame1(name,family,username,password):
     if name=="" or family=="" or username=="" or password=="":
